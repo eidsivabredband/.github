@@ -1,5 +1,25 @@
 version: 2
 
 updates:
+    # NPM packages will not be updated
   - package-ecosystem: npm
     open-pull-requests-limit: 0
+    schedule:
+      interval: weekly
+    # Defined different package ecosystems with a weekly interval, overriding "Dependabot Security"
+    # interval for the mentioned package ecosystems.
+  - package-ecosystem: nuget
+    schedule:
+      interval: weekly
+  - package-ecosystem: gomod
+    schedule:
+      interval: weekly
+  - package-ecosystem: pip
+    schedule:
+      interval: weekly
+  - package-ecosystem: github-actions
+    schedule:
+      interval: weekly
+  - package-ecosystem: terraform
+    schedule:
+      interval: weekly
