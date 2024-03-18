@@ -6,13 +6,13 @@ updates:
     open-pull-requests-limit: 0
     directory: "/"
     schedule:
-      interval: weekly
+      interval: daily
     # Defined different package ecosystems with a weekly interval, overriding "Dependabot Security"
     # interval for the mentioned package ecosystems.
   - package-ecosystem: nuget
     directory: "/"
     schedule:
-      interval: weekly
+      interval: daily
   - package-ecosystem: gomod
     directory: "/"
     schedule:
