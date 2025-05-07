@@ -1,1 +1,1 @@
-# Welcome to Eidsiva Bredbånd
+# Welcome to Eidsiva Digital
